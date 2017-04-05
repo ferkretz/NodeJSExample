@@ -1,0 +1,6 @@
+{
+    "index.title": "Főoldal",
+    "index.tableMessage {{database}}": "Kattints ide, hogy megtekintsd a táblákat a(z) '{{database}}' adatbázisban!",
+    "table.index.title {{database}}": "Táblák a(z) '{{database}}' adatbázisban",
+    "table.details.title {{table}}": "A(z) '{{table}}' tábla részletezése"
+}

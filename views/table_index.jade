@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    div(class='simple-box')
+        div(class="title") #{title}
+        div(class="content")
+            table
+                tr
+                    th #{Object.keys(results[0])[0]}
+                each item in results
+                    tr
+                        td: a(href='/table/#{item[Object.keys(item)[0]]}') #{item[Object.keys(item)[0]]}

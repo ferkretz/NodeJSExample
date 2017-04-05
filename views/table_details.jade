@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    div(class='simple-box')
+        div(class="title") #{title}
+        div(class="content")
+            table
+                tr
+                    each h in Object.keys(results[0])
+                        th #{h}
+                each row in results
+                    tr
+                        each data in row
+                            td #{data}

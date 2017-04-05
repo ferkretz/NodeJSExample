@@ -1,0 +1,17 @@
+{
+  "name": "testapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "debug": "*",
+    "express": "*",
+    "jade": "*",
+    "less-middleware": "*",
+    "i18n": "*"
+     "mysql": "*",
+  }
+}

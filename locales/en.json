@@ -1,0 +1,6 @@
+{
+    "index.title": "Home",
+    "index.tableMessage {{database}}": "Click here to list table in '{{database}}' database!",
+    "table.index.title {{database}}": "Tables in '{{database}}' database",
+    "table.details.title {{table}}": "Details of '{{table}}' table"
+}

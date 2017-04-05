@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    div(class='simple-box')
+        div(class="title") #{message}
+        div(class="content")
+            div(class="scroll")
+                pre #{error.stack}
